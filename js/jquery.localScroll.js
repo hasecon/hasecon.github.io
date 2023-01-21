@@ -1,8 +1,8 @@
 /*!
  * jQuery.localScroll
- * Copyright (c) 2007-2015 Ariel Flesler - aflesler<a>gmail<d>com | http://flesler.blogspot.com
+ * Copyright (c) 2007-2015 Ariel Flesler - aflesler<a>gmail<d>com | https://flesler.blogspot.com
  * Licensed under MIT
- * http://flesler.blogspot.com/2007/10/jquerylocalscroll-10.html
+ * https://flesler.blogspot.com/2007/10/jquerylocalscroll-10.html
  * @author Ariel Flesler
  * @version 1.4.0
  */
@@ -21,7 +21,7 @@
 	};
 
 	// Many of these defaults, belong to jQuery.ScrollTo, check it's demo for an example of each option.
-	// @see http://demos.flesler.com/jquery/scrollTo/
+	// @see https://demos.flesler.com/jquery/scrollTo/
 	// The defaults are public and can be overriden.
 	$localScroll.defaults = {
 		duration: 1000, // How long to animate.

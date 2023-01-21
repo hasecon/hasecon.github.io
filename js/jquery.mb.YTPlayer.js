@@ -9,16 +9,16 @@
  —  email:                                                                                        —
  —     matteo@open-lab.com                                                                        —
  —  site:                                                                                         —
- —     http://pupunzi.com                                                                         —
- —     http://open-lab.com                                                                        —
+ —     https://pupunzi.com                                                                         —
+ —     https://open-lab.com                                                                        —
  —  blog:                                                                                         —
- —     http://pupunzi.open-lab.com                                                                —
+ —     https://pupunzi.open-lab.com                                                                —
  —  Q&A:                                                                                          —
- —     http://jquery.pupunzi.com                                                                  —
+ —     https://jquery.pupunzi.com                                                                  —
  —                                                                                                —
  —  Licences: MIT, GPL                                                                            —
- —     http://www.opensource.org/licenses/mit-license.php                                         —
- —     http://www.gnu.org/licenses/gpl.html                                                       —
+ —     https://www.opensource.org/licenses/mit-license.php                                         —
+ —     https://www.gnu.org/licenses/gpl.html                                                       —
  —                                                                                                —
  —  Copyright (c) 2001-2014. Matteo Bicocchi (Pupunzi);                                           —
  —————————————————————————————————————————————————————————————————————————————————————————————————*/
@@ -80,8 +80,8 @@ function onYouTubePlayerAPIReady() {
 
 	var getYTPVideoID=function(url){
 		var movieURL;
-		if(url.substr(0,16)=="http://youtu.be/"){
-			movieURL= url.replace("http://youtu.be/","");
+		if(url.substr(0,16)=="https://youtu.be/"){
+			movieURL= url.replace("https://youtu.be/","");
 		}else if(url.indexOf("http")>-1){
 			movieURL = url.match(/[\\?&]v=([^&#]*)/)[1];
 		}else{
